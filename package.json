@@ -1,0 +1,19 @@
+{
+  "name": "church-dashboard",
+  "version": "1.0.0",
+  "description": "Church Newcomer Management Dashboard - Full-stack MERN application",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start"
+  },
+  "keywords": ["church", "dashboard", "newcomer", "management", "mern", "typescript"],
+  "author": "",
+  "license": "ISC"
+}
